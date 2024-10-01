@@ -1,0 +1,10 @@
+<evaml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="script_template" xsi:noNamespaceSchemaLocation="evaml-schema/evaml_schema.xsd" id="6169e50f8d93fdd29a10efde0c74cfe3">
+  <settings>
+    <voice tone="pt-BR_IsabelaV3Voice" key="1000" />
+    <lightEffects mode="ON" />
+    <audioEffects mode="ON" />
+  </settings>
+  <script>
+
+  </script>
+</evaml>
