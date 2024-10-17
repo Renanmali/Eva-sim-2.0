@@ -376,6 +376,13 @@ Revision: 2024/09/26
 		</xs:complexType>
 	</xs:element>
 
+	<xs:element name="userHandPose">
+		<xs:complexType>
+			<xs:attribute name="id" type="idType"/>
+			<xs:attribute name="var" type="xs:string"/>
+		</xs:complexType>
+	</xs:element>
+
 	<xs:element name="userID">
 		<xs:complexType>
 			<xs:attribute name="id" type="idType"/>
@@ -499,6 +506,7 @@ Revision: 2024/09/26
 				<xs:element ref="goto"/>
 				<xs:element ref="motion"/>
 				<xs:element ref="userEmotion"/>
+				<xs:element ref="userHandPose"/>
 				<xs:element ref="textEmotion"/>
 				<xs:element ref="userID"/>
 				<xs:element ref="qrRead"/>
@@ -529,6 +537,7 @@ Revision: 2024/09/26
 				<xs:element ref="goto"/>
 				<xs:element ref="motion"/>
 				<xs:element ref="userEmotion"/>
+				<xs:element ref="userHandPose"/>
 				<xs:element ref="textEmotion"/>
 				<xs:element ref="userID"/>
 				<xs:element ref="qrRead"/>
@@ -558,6 +567,7 @@ Revision: 2024/09/26
 				<xs:element ref="goto"/>
 				<xs:element ref="motion"/>
 				<xs:element ref="userEmotion"/>
+				<xs:element ref="userHandPose"/>
 				<xs:element ref="textEmotion"/>
 				<xs:element ref="userID"/>
 				<xs:element ref="qrRead"/>
@@ -585,6 +595,7 @@ Revision: 2024/09/26
 				<xs:element ref="goto"/>
 				<xs:element ref="motion"/>
 				<xs:element ref="userEmotion"/>
+				<xs:element ref="userHandPose"/>
 				<xs:element ref="textEmotion"/>
 				<xs:element ref="userID"/>
 				<xs:element ref="qrRead"/>
@@ -636,6 +647,7 @@ Revision: 2024/09/26
 				<xs:element ref="goto"/>
 				<xs:element ref="motion"/>
 				<xs:element ref="userEmotion"/>
+				<xs:element ref="userHandPose"/>
 				<xs:element ref="textEmotion"/>
 				<xs:element ref="userID"/>
 				<xs:element ref="qrRead"/>

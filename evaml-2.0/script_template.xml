@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <evaml
-  name="script_template"
+  name="Hackaton360"
   xsi:noNamespaceSchemaLocation="evaml-schema/evaml_schema.xsd"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <settings>
@@ -9,6 +9,10 @@
     <audioEffects mode="ON" />
   </settings>
   <script>
-
+    <light state="ON" color="BLUE"/> <!-- Acende a lâmpada inteligente e coloca na cor Azul-->
+    <led animation="HAPPY" /> <!-- Acende a luz do tórax do robô com a cor referente a emoção de Felicidade-->
+    <evaEmotion emotion="HAPPY" /> <!-- Faz com que no display o robô faça a expressão de feliz-->
+    <audio source="efx-mario-game-intro" block="TRUE" /> <!-- Toca um áudio e aguarda o término para dar continuidade ao script-->
+    <talk>Até a próxima, tchau!</talk> <!-- Se despede do usuário-->
   </script>
 </evaml>
