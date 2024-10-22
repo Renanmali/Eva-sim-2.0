@@ -4,17 +4,7 @@
   xsi:noNamespaceSchemaLocation="evaml-schema/evaml_schema.xsd"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <settings>
-    <voice tone="pt-BR_IsabelaV3Voice" />
-    <lightEffects mode="ON" />
-    <audioEffects mode="ON" />
   </settings>
   <script>
-    <useMacro macro="Apresenta" /> <!-- Utiliza a Macro Apresenta-->
   </script>
-  <macros>
-    <macro id="Apresenta">
-        <talk>Olá, eu sou o robô EVA.</talk>
-        <talk>Qual é o seu nome?</talk>
-    </macro>
-  </macros>
 </evaml>
